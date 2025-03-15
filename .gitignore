@@ -1,17 +1,6 @@
-# Ignore build artifacts
-/build/
+# Ignore build artifacts but keep the build folder itself
+/build/*
 !/build/.gitkeep
-/CMakeFiles/
-/CMakeCache.txt
-/Makefile
-/*.cmake
-/*.o
-/*.obj
-/*.so
-/*.a
-/*.lib
-/*.dll
-/*.exe
 
 # Ignore generated files
 regex_engine
