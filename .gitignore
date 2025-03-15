@@ -1,0 +1,25 @@
+# Ignore build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/*.o
+/*.obj
+/*.so
+/*.a
+/*.lib
+/*.dll
+/*.exe
+
+# Ignore generated files
+regex_engine
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
